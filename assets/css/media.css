@@ -1,0 +1,396 @@
+@media(min-width:768px) {}
+
+@media(min-width:992px) {
+  .hero-banner .col-left {
+    width: 60.466%;
+  }
+
+  .hero-banner .col-right {
+    width: 39.534%;
+    padding-left: 32px;
+  }
+
+  .hero-banner .banner-img {
+    margin-bottom: -3px;
+    margin-right: -150px;
+  }
+}
+
+@media(min-width:1281px) {
+  .hero-banner .banner-img {
+    margin-right: -250px;
+  }
+}
+
+@media(min-width:1025px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+@media(max-width:1440px) {
+  :root {
+    --size-82: 72px;
+    --size-63: 52px;
+
+    --space-106: 100px;
+    --space-96: 90px;
+  }
+}
+
+@media(max-width:1525px) {}
+
+@media(max-width:1280px) {
+  :root {
+    --size-82: 60px;
+    --size-63: 40px;
+
+    --space-106: 80px;
+    --space-96: 70px;
+    --space-74: 60px;
+    --space-64: 54px;
+    --space-58: 48px;
+  }
+
+  .postcard-wrap .postcard-list .title-md {
+    font-size: 55px;
+  }
+
+  .postcard-wrap .postcard-list .postcard-item {
+    padding-top: 160px;
+  }
+
+  .service-wrap .service-list ul {
+    gap: 20px;
+  }
+
+  .campaigns-wrap .col-left .img-box {
+    width: 400px;
+  }
+}
+
+@media(max-width:1024px) {
+  :root {
+    --size-82: 50px;
+    --size-63: 32px;
+  }
+
+
+  .btn {
+    padding: -3px 34px;
+  }
+
+  .btn.lg {
+    padding: -1px 44px;
+  }
+
+  .header-wrap .menu-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    right: -320px;
+    bottom: 0;
+    width: 300px;
+    min-height: 100dvh;
+    padding: 60px 15px 96px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-wrap .menu-wrap .menu li {
+    padding: 0;
+  }
+
+  .header-wrap .menu-wrap .menu li a {
+    color: var(--secondary);
+  }
+
+  .header-wrap header .menu-wrap {
+    display: inline-block;
+  }
+
+  .header-wrap .menu-wrap .btn-wrap {
+    /* position: absolute; */
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 180px 0 70px;
+    justify-content: center;
+  }
+
+  .header-wrap .menu-wrap .menu-toggle button {
+    padding-top: 22px;
+  }
+
+  .header-wrap header .btn-wrap {
+    display: block;
+  }
+
+  .header-wrap header .btn-wrap a {
+    margin: 5px 0;
+  }
+
+  .header-wrap header .btn-wrap a {
+    width: 100%;
+  }
+
+
+  .btn.white span {
+    color: var(--secondary);
+    background: var(--white);
+    border-color: var(--secondary);
+    width: 100%;
+  }
+
+  .btn.primary span {
+    color: var(--white);
+    background: var(--orange);
+    border-color: var(--secondary);
+    width: 100%;
+  }
+
+  .header-wrap .menu-wrap.active {
+    right: 0;
+  }
+
+  .header-wrap .container {
+    justify-content: space-between;
+  }
+
+  .header-wrap .menu {
+    height: auto;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .header-wrap .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-wrap .menu ul li {
+    width: 100%;
+  }
+
+  .header-wrap .menu ul li {
+    border-bottom: 1px solid var(--dark-light);
+  }
+
+  .header-wrap .menu ul li:nth-child(4n + 4) {
+    border-bottom: none;
+  }
+
+  .header-wrap .menu>ul>li>a {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 0px;
+  }
+
+  .header-wrap .menu-wrap .menu li {
+    padding: 3px 0;
+    position: relative;
+  }
+
+  .header-wrap .menu-wrap {
+    position: fixed;
+    scrollbar-width: auto;
+  }
+
+  .postcard-wrap .postcard-list .title-md {
+    font-size: 38px;
+  }
+
+  .postcard-wrap .postcard-list .postcards-item {
+    margin-top: 90px;
+  }
+
+  .campaigns-wrap .col-left .img-box {
+    width: 330px;
+  }
+
+  .campaigns-wrap .col-right {
+    width: 61%;
+  }
+
+  .campaigns-wrap .col-right {
+    width: 75%;
+  }
+
+  .campaigns-wrap .title-sm {
+    font-size: 30px;
+  }
+
+  .campaigns-wrap .profit-card span {
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width:991px) {
+  :root {
+    --size-82: 42px;
+    --size-63: 30px;
+    --size-28: 26px;
+    --size-24: 22px;
+
+    --space-106: 60px;
+    --space-96: 50px;
+    --space-74: 40px;
+    --space-64: 44px;
+    --space-58: 38px;
+
+  }
+
+  .hero-banner .banner-img img {
+    width: 100%;
+  }
+
+  .hero-banner .banner-info {
+    padding: 150px 0 0;
+  }
+
+  .postcards-wrap .postcard-list .title-md {
+    font-size: 35px;
+  }
+
+  .postcard-wrap .postcard-list .postcard-item {
+    padding-top: 75px;
+  }
+
+  .service-wrap .service-list ul li {
+    flex: 1 1 calc(50.33% - 30px);
+  }
+
+  .campaigns-wrap .campaigns-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campaigns-wrap .col-right {
+    padding-top: 48px;
+  }
+
+  .campaigns-wrap .title-sm {
+    font-size: 20px;
+  }
+
+  .campaigns-wrap .profit-card span {
+    font-size: 10px;
+  }
+
+  .postpilot-risk .postpilot-risk-list {
+    flex-direction: column;
+  }
+
+  .postpilot-risk .col-left {
+    width: 100%;
+  }
+
+  .postpilot-risk .col-right {
+    width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  :root {
+    --size-82: 32px;
+    --size-63: 28px;
+    --size-28: 24px;
+    --size-24: 20px;
+    --size-20: 18px;
+    --size-18: 16px;
+
+    --space-106: 45px;
+    --space-96: 40px;
+    --space-74: 35px;
+    --space-64: 34px;
+    --space-58: 28px;
+  }
+
+  .btn.lg span {
+    padding: 18px 44px;
+  }
+
+  .direct-wrap .direct-email .direct-list ul li {
+    width: 100%;
+  }
+
+  .postcard-wrap .postcard-list .title-md {
+    font-size: 28px;
+  }
+
+  .postcard-wrap .postcard-list .postcard-item {
+    padding-top: 45px;
+  }
+
+  .trusted-wrap .trusted-list .card-box {
+    padding-top: 15px;
+  }
+
+  .campaigns-wrap .title-sm {
+    font-size: 15px;
+  }
+
+  .campaigns-wrap .profit-card span {
+    font-size: 8px;
+  }
+
+  .footer-wrap-top .footer {
+    flex-direction: column;
+  }
+
+  .footer-bottom-wrap .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-bottom-wrap .btn-wrap {
+    padding: 30px 0;
+  }
+
+}
+
+@media(max-width:575px) {
+  .hero-banner .banner-info .btn-wrap {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  .service-wrap .service-list ul li {
+    flex: 1 1 calc(100.33% - 30px);
+  }
+
+  .postpilot-risk .col-left .btn-wrap {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  .postpilot-risk .btn-wrap .rating {
+    padding: 0 0;
+  }
+
+  .latest-wrap .latest-list .flex {
+    flex-direction: column;
+  }
+
+  .latest-wrap .latest-list ul li {
+    width: 100%;
+  }
+
+  .latest-wrap .latest-list ul {
+    column-gap: 0;
+  }
+
+  .trusted-wrap .trusted-list .card-box {
+    padding-top: 8px;
+  }
+
+
+}

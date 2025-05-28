@@ -228,6 +228,18 @@
     font-size: 14px;
   }
 
+   .active-td {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    min-height: 120vh;
+    background: var(--black);
+    opacity: 1.9;
+    transition: var(--transition);
+    z-ndex: 991;
+}
 
 }
 

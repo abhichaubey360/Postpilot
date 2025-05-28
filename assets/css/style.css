@@ -639,9 +639,7 @@ input[type="search"] {
 .header-wrap .menu-wrap .menu-toggle button {
   font-size: 24px;
 }
-
 /* menu-toggle end */
-
 /* ===== header end ===== */
 
 
@@ -1284,11 +1282,5 @@ input[type="search"] {
 .footer-bottom-wrap .Contact-text span {
   font-size: var(--size-14);
 }
-
-
-
-
-
-
 
 /* === footer-bottom-wrap end === */

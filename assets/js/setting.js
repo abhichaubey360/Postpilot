@@ -1,11 +1,14 @@
 jQuery(".menu-toggle button").on("click", function () {
     jQuery(".menu-wrap").toggleClass("active");
+    jQuery(".mobile-overlay").toggleClass("active-td");
+    jQuery("body").toggleClass("pause");
   });
+
 
   window.addEventListener("scroll", function () {
     let header = document.querySelector(".header-wrap");
     
-    if (window.scrollY > 50) { // 50px scroll hone ke baad sticky ho jayega
+    if (window.scrollY > 50) { // 50px scroll hone ke baad sticky ho jayega 
       header.classList.add("sticky");
     } else {
       header.classList.remove("sticky");
@@ -13,10 +16,9 @@ jQuery(".menu-toggle button").on("click", function () {
   });
 
 
-
   // const testimonialsSlider = new Swiper('.testimonials-slider', {
   //   loop: true,
-  //   loopAdditionalSlides: 5,
+  //   loopAdditionalSlides: 5, 
   //   slidesPerView: "auto",
   //   speed: 8000,
   //   spaceBetween: 32,
@@ -25,8 +27,7 @@ jQuery(".menu-toggle button").on("click", function () {
   //     disableOnInteraction: false,
   //   },
   // });
-
-
+  
 
 const testimonialsSlider = new Swiper('.testimonials-slider', {
   slidesPerView: 'auto',
@@ -67,6 +68,7 @@ const testimonialsSlider = new Swiper('.testimonials-slider', {
       underline.style.left = offsetLeft + 'px';
       underline.style.width = item.offsetWidth + 'px';
     });
+
   });
   // Set initial underline position
   window.onload = () => {
